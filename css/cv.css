@@ -1,0 +1,126 @@
+*
+{
+	font-family: calibri;
+}
+body
+{
+	background: #E6E6E4;
+	background: -webkit-linear-gradient(right, #FAFAFA 20%, #CEF6F5 80%);
+	background: -o-linear-gradient(right, #FAFAFA 20%, #CEF6F5 80%);
+	background: -ms-linear-gradient(right, #FAFAFA 20%, #CEF6F5 80%);
+	background: -moz-linear-gradient(right, #FAFAFA 20%, #CEF6F5 80%);
+}
+header
+{
+	
+	background: #424242;
+	border: solid black;
+	border-radius: 18px;
+	text-align: center;
+	padding-bottom: 60px;
+	color: white;	
+	display: block;
+	
+}
+
+a
+{
+	
+	color: white;
+}
+
+header h1
+{
+	font-size: 3em;
+}
+
+figure
+{
+
+	text-align: center;
+	display: inline;
+	float: left;
+	clear: bottom;
+	padding-left: 50px;
+
+}
+
+img{
+	border-radius: 18px;
+	border: solid; 	
+	width: 160px;
+	height: 245px;
+}
+
+
+
+section
+{
+	display: block;
+	clear:both;
+	/*background: #CEF6F5;*/	
+	padding: 10px 15px;
+}
+
+h3
+{
+	font-family: calibri;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 0px 2px 3px #555;
+}
+
+li
+{
+	font-family: arial;
+}
+
+.Cargos
+{
+	font-size:1.5em;
+	font-family: Calibri; 
+}
+
+.empresa
+{
+	font-size: 1.5em;
+	font-family: calibri;
+	background: #424242;
+	border-radius: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline-block;
+	color: white;
+	box-shadow: #2E64FE 9px 9px 9px;
+
+
+}
+
+.empresa:hover
+{
+	/*font-size: 1.6em;*/
+	margin-left: 10px;
+	font-size: 1.6em;
+	-webkit-transition: 1.2s ease;
+	-o-transition: 1.2s ease;
+	-ms-transition: 1.2s ease;
+	-moz-transition: 1.2s ease;
+}
+
+.desc-empresa
+{
+	font-family: century;
+	font-style: strong;
+
+
+}
+
+.desc-empresa a
+{
+	color: black;
+}
+
+p strong
+{
+	font-size: 1.3em;
+}
